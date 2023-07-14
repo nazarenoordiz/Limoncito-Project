@@ -5,8 +5,8 @@ import openai
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 
-APP_TOKEN = "xapp-1-A05C7A7GFG8-5405177267601-3c3f8bc0a209a1e55f3532c3efb9e6462b956d24542d5f7f215bd04aee737fa5"
-BOT_TOKEN = "xoxb-2682507849171-5391524871747-bRxKDdtW4U2kGfCynDyVMiyU"
+APP_TOKEN = "xapp-1-A05C7A7GFG8-5405177267601-..."
+BOT_TOKEN = "xoxb-268250784917-..."
 COMPLETIONS_MODEL = "text-davinci-002"
 COMPLETIONS_API_PARAMS = {
     "temperature": 0.0,
@@ -41,7 +41,7 @@ def get_answer(message: str):
     import pdb; pdb.set_trace()
     return response["choices"][0]["text"].strip(" \n")
 
-openai.api_key = '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'
+openai.api_key = 'sk-xmBLbTO6yOhJz...'
 
 
 
